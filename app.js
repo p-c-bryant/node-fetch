@@ -1,4 +1,4 @@
-const test = require('./test.js');
+const weather = require('./weather.js');
 
 const query = process.argv.slice(2);
-test.get(query);
+weather.get(query);
